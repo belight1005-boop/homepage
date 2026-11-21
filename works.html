@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Works — BELIGHT</title>
+  <meta name="description" content="BELIGHT 포트폴리오">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <a href="/" class="logo">BELIGHT</a>
+      <nav class="nav" aria-label="주 메뉴">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/works" aria-current="page">Works</a>
+        <a href="/contact">Contact</a>
+      </nav>
+      <button class="menu-btn" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="wrap">
+        <p class="eyebrow reveal">Works</p>
+        <h1 class="display reveal">작업 기록</h1>
+        <p class="lead reveal">브랜드와 함께 고민하고 만들어온 프로젝트들입니다.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="filters" role="group" aria-label="카테고리 필터">
+          <button class="filter is-active" data-filter="all">All</button>
+          <button class="filter" data-filter="branding">Branding</button>
+          <button class="filter" data-filter="space">Space</button>
+          <button class="filter" data-filter="content">Content</button>
+        </div>
+
+        <!-- 작업 하나 = <article> 하나. 복사해서 늘리고, ph-* 대신 <img src="..."> 를 넣으세요 -->
+        <div class="works three">
+          <article class="work reveal" data-cat="branding">
+            <div class="work-thumb"><div class="ph-1"></div></div>
+            <div class="work-meta"><h3 class="work-title">Project One</h3><span class="work-cat">Branding · 2026</span></div>
+            <p class="work-desc">카페 브랜드 아이덴티티 리뉴얼</p>
+          </article>
+          <article class="work reveal" data-cat="space">
+            <div class="work-thumb"><div class="ph-2"></div></div>
+            <div class="work-meta"><h3 class="work-title">Project Two</h3><span class="work-cat">Space · 2026</span></div>
+            <p class="work-desc">라이프스타일 팝업스토어 공간 기획</p>
+          </article>
+          <article class="work reveal" data-cat="content">
+            <div class="work-thumb"><div class="ph-3"></div></div>
+            <div class="work-meta"><h3 class="work-title">Project Three</h3><span class="work-cat">Content · 2026</span></div>
+            <p class="work-desc">시즌 캠페인 영상 및 SNS 콘텐츠</p>
+          </article>
+          <article class="work reveal" data-cat="branding">
+            <div class="work-thumb"><div class="ph-4"></div></div>
+            <div class="work-meta"><h3 class="work-title">Project Four</h3><span class="work-cat">Branding · 2025</span></div>
+            <p class="work-desc">스킨케어 브랜드 패키지 디자인</p>
+          </article>
+          <article class="work reveal" data-cat="content">
+            <div class="work-thumb"><div class="ph-5"></div></div>
+            <div class="work-meta"><h3 class="work-title">Project Five</h3><span class="work-cat">Content · 2025</span></div>
+            <p class="work-desc">브랜드 웹사이트 디자인</p>
+          </article>
+          <article class="work reveal" data-cat="space">
+            <div class="work-thumb"><div class="ph-6"></div></div>
+            <div class="work-meta"><h3 class="work-title">Project Six</h3><span class="work-cat">Space · 2025</span></div>
+            <p class="work-desc">쇼룸 사인물 및 공간 그래픽</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="wrap">
+        <p class="eyebrow reveal">Contact</p>
+        <h2 class="display reveal">다음 작업은<br>당신의 브랜드입니다.</h2>
+        <a href="/contact" class="btn reveal">프로젝트 문의하기 <span class="arrow">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <p class="footer-big">BELIGHT</p>
+        <div class="footer-links">
+          <div><span>Menu</span><a href="/about">About</a><a href="/works">Works</a><a href="/contact">Contact</a></div>
+          <div><span>Follow</span><a href="#">Instagram</a><a href="#">Behance</a></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year></span> BELIGHT. All rights reserved.</span>
+        <span>hello@example.com</span>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/main.js"></script>
+</body>
+</html>
